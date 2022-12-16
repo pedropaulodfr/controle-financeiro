@@ -1,10 +1,16 @@
 import React from 'react'
+import ResumeItem from '../ResumeItem'
+
 import * as C from './styles'
 
 const Resume = () => {
   return (
     <>
-        <C.Container>Teste</C.Container>
+        <C.Container>
+          <ResumeItem></ResumeItem>
+          <ResumeItem></ResumeItem>
+          <ResumeItem></ResumeItem>
+        </C.Container>
     </>
 
   )
